@@ -1,7 +1,16 @@
+import { BrowserRouter } from "react-router-dom"
+import { Suspense } from "react"
+import MainRoute from "./views/MainRoute"
 import './App.css'
 
 function App() {
-  return (<h1>Hello world</h1>)
+  return (
+    <BrowserRouter>
+      <Suspense fallback={false}>
+        <MainRoute />
+      </Suspense>
+    </BrowserRouter>
+  )
 }
 
 export default App
