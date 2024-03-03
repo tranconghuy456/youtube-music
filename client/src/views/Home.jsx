@@ -1,5 +1,9 @@
+import { Drawer } from "../components/Drawer"
+
 const Home = () => {
-    return (<h1>HOME</h1>)
+    return (
+        <Drawer />
+    )
 }
 
 export default Home

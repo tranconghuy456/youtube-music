@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    transition: 0.5s all ease;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  .ri {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+  }
+}
