@@ -26,4 +26,16 @@
     position: relative;
     vertical-align: middle;
   }
+
+  .sider.collapsed ~ section {
+    margin-left: 92px;
+  }
+
+  .sider.collapsed ~ section > .navbar {
+    margin-left: 92px !important;
+  }
+
+  .sider.collapsed ~ .player {
+    margin-left: 92px;
+  }
 }

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Sider />
-      <section className="ml-[240px] h-100 pt-[64px] pb-[112px] px-[92px] relative text-white">
+      <section className="ml-[240px] md:ml-[240px] h-100 pt-[64px] pb-[112px] px-[92px] relative text-white">
         <Navbar className="px-[92px]" />
         <div className="content pt-8">
           <header className="tags flex space-x-8">

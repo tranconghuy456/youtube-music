@@ -3,9 +3,20 @@ import './sider.css';
 import logo from '../../assets/images/logo/favicon_48.png';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { useViewport } from '../../hooks/useViewport';
 
 const Sider = () => {
   const [collapsed, setCollapsed] = useState(false);
+
+  window.addEventListener('resize', () => {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth <= 1024) {
+      setCollapsed(true);
+    } else if (windowWidth <= 768) {
+      setCollapsed(true);
+    }
+  });
 
   const handleToggle = () => {
     setCollapsed(!collapsed);
@@ -15,7 +26,7 @@ const Sider = () => {
   return (
     <>
       <div
-        className={`sider z-20 border-r border-[#525252] group fixed bg-[rgba(0,0,0,0.6)] h-screen w-[240px] text-white ${collapsed ? 'collapsed' : ''}`}
+        className={`sider z-20 border-r border-[#525252] group fixed bg-[rgba(0,0,0,0.6)] h-screen  text-white ${collapsed ? 'collapsed' : ''} w-[240px]`}
       >
         <div className="w-100 flex mx-auto space-x-5 items-center px-8 pt-5">
           <i
