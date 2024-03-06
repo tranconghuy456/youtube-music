@@ -1,0 +1,17 @@
+.active:not(.logo) {
+  background: rgba(0, 0, 0, 1);
+  /* font-weight: 600; */
+  color: #fff;
+}
+
+.collapsed {
+  width: var(--sider-collapsed-width) !important;
+}
+
+.playlist > ul {
+  max-height: calc(100vh - 22rem);
+}
+
+.playlist > ul > li:hover i.hidden {
+  display: block !important;
+}

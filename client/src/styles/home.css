@@ -1,0 +1,7 @@
+.sider.collapsed ~ section {
+  margin-left: 92px;
+}
+
+.sider.collapsed ~ section > .navbar {
+  margin-left: 92px !important;
+}

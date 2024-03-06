@@ -1,7 +1,7 @@
-const Explore = () => {
-    return (
-        <h1>EXPLORE</h1>
-    )
-}
+import { Sider } from '../components/Sider';
 
-export default Explore
+const Explore = () => {
+  return <Sider />;
+};
+
+export default Explore;

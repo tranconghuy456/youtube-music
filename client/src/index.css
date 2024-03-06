@@ -10,11 +10,14 @@
   body {
     margin: 0;
     padding: 0;
+    background: radial-gradient(800px circle at 0px 0px, rgba(29, 79, 216, 0.193), transparent 80%);
+    @apply bg-slate-900 text-slate-400 selection:bg-teal-300 selection:text-teal-900 antialiased leading-relaxed;
   }
 
   html {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    scrollbar-color: #aaa transparent;
   }
   .ri {
     display: inline-flex;

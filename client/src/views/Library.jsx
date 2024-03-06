@@ -1,5 +1,7 @@
-const Library = () => {
-    return (<h1>LIBRARY</h1>)
-}
+import { Sider } from '../components/Sider';
 
-export default Library
+const Library = () => {
+  return <Sider />;
+};
+
+export default Library;
