@@ -35,7 +35,10 @@
     margin-left: 92px !important;
   }
 
-  .sider.collapsed ~ .player {
-    margin-left: 92px;
+  .truncate {
+    width: 150px; /* or any other fixed width */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

@@ -1,0 +1,141 @@
+[
+  {
+    "type": "tags",
+    "id": 1,
+    "count": 5,
+    "data": [
+      {
+        "name": "Rap",
+        "id": 1,
+        "filter": ["rap", "trending"],
+        "data": ""
+      },
+      {
+        "name": "Lofi",
+        "id": 2,
+        "filter": ["lofi"],
+        "data": ""
+      },
+      {
+        "name": "Pop",
+        "id": 3,
+        "filter": ["pop"],
+        "data": ""
+      },
+      {
+        "name": "Relax",
+        "id": 4,
+        "filter": ["relax", "lofi"],
+        "data": ""
+      },
+      {
+        "name": "Coffee",
+        "id": 5,
+        "filter": ["coffee", "lofi", "relax"],
+        "data": ""
+      }
+    ]
+  },
+  {
+    "type": "shelf",
+    "id": 2,
+    "count": 3,
+    "data": [
+      {
+        "name": "Listen again",
+        "author": "Trần Công Huy",
+        "id": 1,
+        "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/d/4/a/c/d4acc6335d41bd7164173312c6123706.jpg",
+        "context": [
+          {
+            "name": "Cao ốc",
+            "author": "B-ray",
+            "image": "https://i1.sndcdn.com/artworks-000556537428-fuinlx-t500x500.jpg",
+            "id": 1,
+            "duration": 2400,
+            "liked": false
+          },
+          {
+            "name": "Không Phải Gu",
+            "author": "HIEUTHUHAI (prod. by Kewtiie) ft. B-ray & Tage",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/d/4/a/c/d4acc6335d41bd7164173312c6123706.jpg",
+            "id": 2,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          },
+          {
+            "name": "NOLOVENOLIFE",
+            "author": "HIEUTHUHAI (prod. by Kewtiie)",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/d/4/a/c/d4acc6335d41bd7164173312c6123706.jpg",
+            "id": 3,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "RAP",
+        "author": "SIMILAR TO",
+        "image": "https://i1.sndcdn.com/artworks-000556537428-fuinlx-t500x500.jpg",
+        "id": 2,
+        "context": [
+          {
+            "name": "Cao ốc",
+            "author": "B-ray",
+            "image": "https://i1.sndcdn.com/artworks-000556537428-fuinlx-t500x500.jpg",
+            "id": 1,
+            "duration": 2400,
+            "liked": false
+          },
+          {
+            "name": "Không Phải Gu",
+            "author": "HIEUTHUHAI (prod. by Kewtiie) ft. B-ray & Tage",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/d/4/a/c/d4acc6335d41bd7164173312c6123706.jpg",
+            "id": 2,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          },
+          {
+            "name": "Buồn Hay Vui",
+            "author": "HIEUTHUHAI (prod. by Kewtiie)",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/6/d/a/a/6daaea74ed8423b2a0e769011d6d3eb3.jpg",
+            "id": 3,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          },
+          {
+            "name": "1001 Lý Do",
+            "author": "HIEUTHUHAI (prod. by Kewtiie)",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/a/b/9/b/ab9b5b48d50befbc05ccac43d41ea3d3.jpg",
+            "id": 3,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          },
+          {
+            "name": "Trước Khi Tuổi Trẻ Đóng Lối",
+            "author": "HIEUTHUHAI (prod. by Kewtiie)",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/0/f/c/6/0fc6457644b717de8bc6ba2604b22462.jpg",
+            "id": 3,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          },
+          {
+            "name": "Exit Sign",
+            "author": "HIEUTHUHAI (prod. by Kewtiie)",
+            "image": "https://photo-resize-zmp3.zmdcdn.me/w600_r1x1_jpeg/cover/d/4/a/c/d4acc6335d41bd7164173312c6123706.jpg",
+            "id": 3,
+            "duration": 2400,
+            "liked": true,
+            "url": ""
+          }
+        ]
+      }
+    ]
+  }
+]
